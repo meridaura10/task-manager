@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+.header__item {
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.loginPage {
+  height: 100vh;
+}
+.userInfo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.h100 {
+  height: calc(100vh - 64px);
+}
+.form {
+  background-color: white;
+  padding: 20px;
+  border: 15px;
+}
+.formText {
+  text-align: center;
+  padding: 8px 0px 12px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.buttonEvent {
+  background-color: #fff;
+}
+.and {
+  position: relative;
+  text-align: center;
+  padding-bottom: 3px;
+}
+.and::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 40%;
+  height: 1px;
+  background-color: #aaa;
+  margin: auto;
+}
+.and::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 40%;
+  height: 1px;
+  background-color: #aaa;
+  margin: auto;
+}
